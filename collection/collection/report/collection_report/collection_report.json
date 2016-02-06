@@ -1,0 +1,18 @@
+{
+ "add_total_row": 0, 
+ "apply_user_permissions": 1, 
+ "creation": "2015-03-13 12:30:39.954920", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "is_standard": "Yes", 
+ "modified": "2015-06-02 12:12:01.349384", 
+ "modified_by": "Administrator", 
+ "module": "Collection", 
+ "name": "Collection Report", 
+ "owner": "Administrator", 
+ "query": "Select date as 'Date',owner_name as 'Owner:Owner:150',collection as 'Collection:Collection:100',\npaid_amount as 'Paid',remaining_amount as 'Remaining:Remaining:120',payment_type as 'Payment Type:Payment Type:110',cheque_no as 'Cheque No:Cheque No:90',\ndeposit as 'Deposit',month as 'Month' \nfrom `tabCollection`", 
+ "ref_doctype": "Collection", 
+ "report_name": "Collection Report", 
+ "report_type": "Query Report"
+}
